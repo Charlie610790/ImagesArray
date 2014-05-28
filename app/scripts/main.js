@@ -19,7 +19,6 @@
 //	   'http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/5409.png&w=350&h=254',//Shane Victorino
 //     'http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/6393.png&w=350&h=254'//Dustin Pedroia
 // ];
-
 function Player (name,imgURL) {
     this.imageURL = imgURL;
     this.playerName = name;
