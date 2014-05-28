@@ -1,96 +1,97 @@
 'use strict';
-Array of player images
-var players = [
-    {
-     playerName: 'Jon Lester';
-     imageURL: '../images/jonLester.png';
-    },
 
-    {
-     playerName: 'David Ortiz';
-     imageURL: '../images/davidOrtiz.png';
-    },
+//Array of player images
+// var players = [
+//     {
+//      playerName: 'Jon Lester';
+//      imageURL: '../images/jonLester.png';
+//     },
 
-    {
-     playerName: 'Stephen Drew';
-     imageURL: '../images/stephenDrew.png';
-    },
+//     {
+//      playerName: 'David Ortiz';
+//      imageURL: '../images/davidOrtiz.png';
+//     },
 
-    {
-     playerName: 'Mike Napoli';
-     imageURL: '../images/mikeNapoli.png';
-    },
+//     {
+//      playerName: 'Stephen Drew';
+//      imageURL: '../images/stephenDrew.png';
+//     },
 
-    {
-     playerName: 'Koji Uehara';
-     imageURL: '../images/kojiUehara.png';
-    },
+//     {
+//      playerName: 'Mike Napoli';
+//      imageURL: '../images/mikeNapoli.png';
+//     },
 
-    {
-     playerName: 'Xander Bogarts';
-     imageURL: '../images/xanderBogarts.png';
-    },
+//     {
+//      playerName: 'Koji Uehara';
+//      imageURL: '../images/kojiUehara.png';
+//     },
 
-    {
-     playerName: 'Grady Sizemore';
-     imageURL: '../images/gradySizemore.png';
-    },
+//     {
+//      playerName: 'Xander Bogarts';
+//      imageURL: '../images/xanderBogarts.png';
+//     },
 
-    {
-     playerName: 'Johnny Gomes';
-     imageURL: '../images/johnnyGomes.png';
-    },
+//     {
+//      playerName: 'Grady Sizemore';
+//      imageURL: '../images/gradySizemore.png';
+//     },
 
-    {
-     playerName: 'Will Middlebrooks';
-     imageURL: '../images/willMiddlebrooks.png';
-    },
+//     {
+//      playerName: 'Johnny Gomes';
+//      imageURL: '../images/johnnyGomes.png';
+//     },
 
-    {
-     playerName: 'Jackie Bradley Jr.';
-     imageURL: '../images/jackieBradley.png';
-    },
+//     {
+//      playerName: 'Will Middlebrooks';
+//      imageURL: '../images/willMiddlebrooks.png';
+//     },
 
-    {
-     playerName: 'Clay Buchholz';
-     imageURL: '../images/clayBuchholz.png';
-    },
+//     {
+//      playerName: 'Jackie Bradley Jr.';
+//      imageURL: '../images/jackieBradley.png';
+//     },
 
-    {
-     playerName: 'Shane Victorino';
-     imageURL: '../images/shaneVictorino.png';
-    },
+//     {
+//      playerName: 'Clay Buchholz';
+//      imageURL: '../images/clayBuchholz.png';
+//     },
 
-    {
-     playerName: 'John Lackey';
-     imageURL: '../images/johnLackey.png';
-    },
+//     {
+//      playerName: 'Shane Victorino';
+//      imageURL: '../images/shaneVictorino.png';
+//     },
 
-    {
-     playerName: 'Daniel Nava';
-     imageURL: '../images/danielNava.png';
-    },
+//     {
+//      playerName: 'John Lackey';
+//      imageURL: '../images/johnLackey.png';
+//     },
 
-     {
-     playerName: 'Mike Carp';
-     imageURL: '../images/mikeCarp.png';
-    },
+//     {
+//      playerName: 'Daniel Nava';
+//      imageURL: '../images/danielNava.png';
+//     },
 
-     {
-     playerName: 'Felix Doubrant';
-     imageURL: '../images/felixDoubrant.png';
-    },
+//      {
+//      playerName: 'Mike Carp';
+//      imageURL: '../images/mikeCarp.png';
+//     },
 
-     {
-     playerName: 'Ryan Lavarnway';
-     imageURL: '../images/ryanLavarnway.png';
-    },
+//      {
+//      playerName: 'Felix Doubrant';
+//      imageURL: '../images/felixDoubrant.png';
+//     },
 
-     {
-     playerName: 'Drake Britton';
-     imageURL: '../images/drakeBritton.png';
-    },
-];
+//      {
+//      playerName: 'Ryan Lavarnway';
+//      imageURL: '../images/ryanLavarnway.png';
+//     },
+
+//      {
+//      playerName: 'Drake Britton';
+//      imageURL: '../images/drakeBritton.png';
+//     },
+// ];
 
 var imgArray = [
     '../images/jonLester.png',
