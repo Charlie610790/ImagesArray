@@ -142,7 +142,7 @@ module.exports = function (grunt) {
 
 
         // Mocha testing framework configuration options
-        mochaPhantomjs: {
+        mocha_phantomjs: {
             all: {
                 options: {
                     run: true,
