@@ -3,93 +3,93 @@
 //Array of player images
 // var players = [
 //     {
-//      playerName: 'Jon Lester';
-//      imageURL: '../images/jonLester.png';
+//      'playerName': 'Jon Lester',
+//      'imageURL': '../images/jonLester.png'
 //     },
 
 //     {
-//      playerName: 'David Ortiz';
-//      imageURL: '../images/davidOrtiz.png';
+//      'playerName': 'David Ortiz',
+//      'imageURL': '../images/davidOrtiz.png'
 //     },
 
 //     {
-//      playerName: 'Stephen Drew';
-//      imageURL: '../images/stephenDrew.png';
+//      'playerName': 'Stephen Drew',
+//      'imageURL': '../images/stephenDrew.png'
 //     },
 
 //     {
-//      playerName: 'Mike Napoli';
-//      imageURL: '../images/mikeNapoli.png';
+//      'playerName': 'Mike Napoli',
+//      'imageURL': '../images/mikeNapoli.png'
 //     },
 
 //     {
-//      playerName: 'Koji Uehara';
-//      imageURL: '../images/kojiUehara.png';
+//      'playerName': 'Koji Uehara',
+//      'imageURL': '../images/kojiUehara.png'
 //     },
 
 //     {
-//      playerName: 'Xander Bogarts';
-//      imageURL: '../images/xanderBogarts.png';
+//      'playerName': 'Xander Bogarts',
+//      'imageURL': '../images/xanderBogarts.png'
 //     },
 
 //     {
-//      playerName: 'Grady Sizemore';
-//      imageURL: '../images/gradySizemore.png';
+//      'playerName': 'Grady Sizemore',
+//      'imageURL': '../images/gradySizemore.png'
 //     },
 
 //     {
-//      playerName: 'Johnny Gomes';
-//      imageURL: '../images/johnnyGomes.png';
+//      'playerName': 'Johnny Gomes',
+//      'imageURL': '../images/johnnyGomes.png'
 //     },
 
 //     {
-//      playerName: 'Will Middlebrooks';
-//      imageURL: '../images/willMiddlebrooks.png';
+//      'playerName': 'Will Middlebrooks',
+//      'imageURL': '../images/willMiddlebrooks.png'
 //     },
 
 //     {
-//      playerName: 'Jackie Bradley Jr.';
-//      imageURL: '../images/jackieBradley.png';
+//      'playerName': 'Jackie Bradley Jr.',
+//      'imageURL': '../images/jackieBradley.png'
 //     },
 
 //     {
-//      playerName: 'Clay Buchholz';
-//      imageURL: '../images/clayBuchholz.png';
+//      'playerName': 'Clay Buchholz',
+//      'imageURL': '../images/clayBuchholz.png'
 //     },
 
 //     {
-//      playerName: 'Shane Victorino';
-//      imageURL: '../images/shaneVictorino.png';
+//      'playerName': 'Shane Victorino',
+//      'imageURL': '../images/shaneVictorino.png'
 //     },
 
 //     {
-//      playerName: 'John Lackey';
-//      imageURL: '../images/johnLackey.png';
+//      'playerName': 'John Lackey',
+//      'imageURL': '../images/johnLackey.png'
 //     },
 
 //     {
-//      playerName: 'Daniel Nava';
-//      imageURL: '../images/danielNava.png';
+//      'playerName': 'Daniel Nava',
+//      'imageURL': '../images/danielNava.png'
 //     },
 
 //      {
-//      playerName: 'Mike Carp';
-//      imageURL: '../images/mikeCarp.png';
+//      'playerName': 'Mike Carp',
+//      'imageURL': '../images/mikeCarp.png'
 //     },
 
 //      {
-//      playerName: 'Felix Doubrant';
-//      imageURL: '../images/felixDoubrant.png';
+//      'playerName': 'Felix Doubrant',
+//      'imageURL': '../images/felixDoubrant.png'
 //     },
 
 //      {
-//      playerName: 'Ryan Lavarnway';
-//      imageURL: '../images/ryanLavarnway.png';
+//      'playerName': 'Ryan Lavarnway',
+//      'imageURL': '../images/ryanLavarnway.png'
 //     },
 
 //      {
-//      playerName: 'Drake Britton';
-//      imageURL: '../images/drakeBritton.png';
+//      'playerName': 'Drake Britton',
+//      'imageURL': '../images/drakeBritton.png'
 //     },
 // ];
 
@@ -120,7 +120,15 @@ function Player (name,imgURL) {
     this.playerName = name;
 }
 
-///////////////THIS IS THE WORKING FUNCTION
+function Slideshow (array,interval,delay){
+    this.interval = interval;
+    this.array = array;
+    this.delay = delay;
+}
+
+new Slideshow
+
+/////////////THIS IS THE WORKING FUNCTION
 window.onload = function() {
     var image=document.getElementById('picSpot');
     var index=0;
@@ -128,7 +136,7 @@ window.onload = function() {
     function slide() {
         image.src = imgArray[index++%imgArray.length];
     }
-
     setInterval(slide, interval);
 };
+
 ///////////////THIS IS THE WORKING FUNCTION
