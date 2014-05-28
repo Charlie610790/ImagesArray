@@ -10,9 +10,13 @@ body {
     display: block;
     margin: 0px auto;
     margin-top: 20px;
-    height: 400px;
-    width: 800px;
+    height: 328px;
+    width: 500px;
     background-color: #C60C30;
+}
+
+.playersField {
+    margin-left: 50px;
 }
 
 .headertext {
@@ -35,55 +39,54 @@ body {
 //     width: 350px;
 // }
 
-.fadein img {
-    display: block;
-    position:absolute;
-    margin: 0px auto;
-    margin-left: 210px;
-    -webkit-transition: all 3s;
-    -moz-transition: all 3s;
-    -o-transition: all 3s;
-    transition: all 3s;
-    -webkit-animation-name: fade;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 12s;
-    animation-name: fade;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
-}
+// .fadein img {
+//     display: block;
+//     position:absolute;
+//     margin: 0px auto;
+//     margin-left: 210px;
+//     -webkit-transition: all 3s;
+//     -moz-transition: all 3s;
+//     -o-transition: all 3s;
+//     transition: all 3s;
+//     -webkit-animation-name: fade;
+//     -webkit-animation-iteration-count: infinite;
+//     -webkit-animation-duration: 12s;
+//     animation-name: fade;
+//     animation-iteration-count: infinite;
+//     animation-duration: 12s;
+// }
 
-@-webkit-keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
-@keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
+// @-webkit-keyframes fade {
+//     0% {opacity: 0;}
+//     20% {opacity: 1;}
+//     33% {opacity: 1;}
+//     53% {opacity: 0;}
+//     100% {opacity: 0;}
+// }
+// @keyframes fade {
+//     0% {opacity: 0;}
+//     20% {opacity: 1;}
+//     33% {opacity: 1;}
+//     53% {opacity: 0;}
+//     100% {opacity: 0;}
+// }
 
-#f1 {
-    -webkit-animation-delay: 0s;
-    // background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30130.png&w=350&h=254")
-}
+// #f1 {
+//     -webkit-animation-delay: 0s;
+//     // background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30130.png&w=350&h=254")
+// }
 
-#f2 {
-    -webkit-animation-delay: -9s;
-    // background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/5409.png&w=350&h=254")
-}
+// #f2 {
+//     -webkit-animation-delay: -9s;
+//     // background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/5409.png&w=350&h=254")
+// }
 
-#f3 {
-    -webkit-animation-delay: -6s;
-    // background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/6393.png&w=350&h=254")
-}
+// #f3 {
+//     -webkit-animation-delay: -6s;
+//     // background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/6393.png&w=350&h=254")
+// }
 
-#f4 {
-    -webkit-animation-delay: -3s;
-    // background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/28855.png&w=350&h=254")
-}
-
+// #f4 {
+//     -webkit-animation-delay: -3s;
+//     // background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/28855.png&w=350&h=254")
+// }
