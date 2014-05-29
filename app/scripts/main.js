@@ -1,98 +1,6 @@
 'use strict';
 
-//Array of player images
-// var players = [
-//     {
-//      'playerName': 'Jon Lester',
-//      'imageURL': '../images/jonLester.png'
-//     },
-
-//     {
-//      'playerName': 'David Ortiz',
-//      'imageURL': '../images/davidOrtiz.png'
-//     },
-
-//     {
-//      'playerName': 'Stephen Drew',
-//      'imageURL': '../images/stephenDrew.png'
-//     },
-
-//     {
-//      'playerName': 'Mike Napoli',
-//      'imageURL': '../images/mikeNapoli.png'
-//     },
-
-//     {
-//      'playerName': 'Koji Uehara',
-//      'imageURL': '../images/kojiUehara.png'
-//     },
-
-//     {
-//      'playerName': 'Xander Bogarts',
-//      'imageURL': '../images/xanderBogarts.png'
-//     },
-
-//     {
-//      'playerName': 'Grady Sizemore',
-//      'imageURL': '../images/gradySizemore.png'
-//     },
-
-//     {
-//      'playerName': 'Johnny Gomes',
-//      'imageURL': '../images/johnnyGomes.png'
-//     },
-
-//     {
-//      'playerName': 'Will Middlebrooks',
-//      'imageURL': '../images/willMiddlebrooks.png'
-//     },
-
-//     {
-//      'playerName': 'Jackie Bradley Jr.',
-//      'imageURL': '../images/jackieBradley.png'
-//     },
-
-//     {
-//      'playerName': 'Clay Buchholz',
-//      'imageURL': '../images/clayBuchholz.png'
-//     },
-
-//     {
-//      'playerName': 'Shane Victorino',
-//      'imageURL': '../images/shaneVictorino.png'
-//     },
-
-//     {
-//      'playerName': 'John Lackey',
-//      'imageURL': '../images/johnLackey.png'
-//     },
-
-//     {
-//      'playerName': 'Daniel Nava',
-//      'imageURL': '../images/danielNava.png'
-//     },
-
-//      {
-//      'playerName': 'Mike Carp',
-//      'imageURL': '../images/mikeCarp.png'
-//     },
-
-//      {
-//      'playerName': 'Felix Doubrant',
-//      'imageURL': '../images/felixDoubrant.png'
-//     },
-
-//      {
-//      'playerName': 'Ryan Lavarnway',
-//      'imageURL': '../images/ryanLavarnway.png'
-//     },
-
-//      {
-//      'playerName': 'Drake Britton',
-//      'imageURL': '../images/drakeBritton.png'
-//     },
-// ];
-
+//imgArray containing pics of players
 var imgArray = [
     '../images/jonLester.png',
     '../images/davidOrtiz.png',
@@ -114,24 +22,22 @@ var imgArray = [
     '../images/drakeBritton.png'
 ];
 
-// //Player constructor
-// function Player (name,imgURL) {
-//     this.imageURL = imgURL;
-//     this.playerName = name;
-// }
-
-//Slideshow constructor
+//Slideshow constructor that passes three parameters
 function Slideshow (array,interval,delay){
     this.interval = interval;
     this.array = array;
     this.delay = delay;
 
-    var playerImage = this.array[3];
+    var playerImage = //this.array[3];
 
+    for (var i=0; i < this.array.length; i++){
+        //VARIABLE FOR RUNNING LOOP HERE
+    }
+//appending playersField to have the images from the imgArray of players
     $('.playersField').append('<img src="' + playerImage + '">').fadeIn(delay);
 }
 
-
+//creating the slideshow contructor with the 3 passing arguements
 new Slideshow(imgArray, 2000, 600);
 
 /////////////THIS IS THE WORKING FUNCTION
