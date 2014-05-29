@@ -128,7 +128,7 @@ function Slideshow (array,interval,delay){
 
     var playerImage = this.array[3];
 
-    $('.playersField').append('<img src="' + playerImage + '">').fadein(delay);
+    $('.playersField').append('<img src="' + playerImage + '">').fadeIn(delay);
 }
 
 
