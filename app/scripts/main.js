@@ -114,29 +114,35 @@ var imgArray = [
     '../images/drakeBritton.png'
 ];
 
-//Player constructor
-function Player (name,imgURL) {
-    this.imageURL = imgURL;
-    this.playerName = name;
-}
+// //Player constructor
+// function Player (name,imgURL) {
+//     this.imageURL = imgURL;
+//     this.playerName = name;
+// }
 
+//Slideshow constructor
 function Slideshow (array,interval,delay){
     this.interval = interval;
     this.array = array;
     this.delay = delay;
+
+    var playerImage = this.array[3];
+
+    $('.playersField').append('<img src="' + playerImage + '">').fadein(delay);
 }
 
-new Slideshow
+
+new Slideshow(imgArray, 2000, 600);
 
 /////////////THIS IS THE WORKING FUNCTION
-window.onload = function() {
-    var image=document.getElementById('picSpot');
-    var index=0;
-    var interval = 2000;
-    function slide() {
-        image.src = imgArray[index++%imgArray.length];
-    }
-    setInterval(slide, interval);
-};
+// window.onload = function() {
+//     var image=document.getElementById('picSpot');
+//     var index=0;
+//     var interval = 2000;
+//     function slide() {
+//         image.src = imgArray[index++%imgArray.length];
+//     }
+//     setInterval(slide, interval);
+// };
 
 ///////////////THIS IS THE WORKING FUNCTION
