@@ -28,11 +28,11 @@ function Slideshow (array,interval,delay){
     this.array = array;
     this.delay = delay;
 
-    var playerImage = //this.array[3];
+    var playerImage = this.array[3];
 
-    for (var i=0; i < this.array.length; i++){
-        //VARIABLE FOR RUNNING LOOP HERE
-    }
+    // for (var i=0; i < this.array.length; i++){
+    //     //VARIABLE FOR RUNNING LOOP HERE
+    // }
 //appending playersField to have the images from the imgArray of players
     $('.playersField').append('<img src="' + playerImage + '">').fadeIn(delay);
 }

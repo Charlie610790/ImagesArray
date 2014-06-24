@@ -8,7 +8,7 @@
                 var arraySample = [1,2,3];
                 var slideshowInstance = new Slideshow(arraySample,2000,600);
               
-                expect(slideshowInstance.array).to.equal([1,2,3]);
+                expect(slideshowInstance.array).to.eql([1,2,3]);
             });
 
             it('Should test to make sure that the slideshow function has the property for interval.', function () {
